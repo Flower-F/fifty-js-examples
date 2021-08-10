@@ -3,3 +3,6 @@
 ## 01 Expanding Cards
 ## 02 Progress Steps
 ## 03 Rotating Navigation
+## 04 Hidden Search
+## 05 Blurry Loading
+## 06 Scroll Animation
