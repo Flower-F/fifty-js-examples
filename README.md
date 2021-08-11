@@ -6,3 +6,4 @@
 ## 04 Hidden Search
 ## 05 Blurry Loading
 ## 06 Scroll Animation
+## 07 Split Landing Page
