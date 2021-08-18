@@ -16,3 +16,5 @@
 ## 14 Animated Navigation
 ## 15 Increment Counter
 ## 16 Drink Water
+## 18 Background Slider
+## 19 Theme Clock
