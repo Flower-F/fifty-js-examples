@@ -36,6 +36,12 @@ function showMovies(movies) {
         `
         main.appendChild(movieEl);
     })
+    //处理最后一行flex左对齐
+    for (let i = 0; i < movies.length; i++) {
+        const movieEl = document.createElement('div');
+        movieEl.classList.add('last-movie');
+        main.appendChild(movieEl);
+    }
 }
 
 function getClassByRate(vote) {
@@ -48,10 +54,10 @@ function getClassByRate(vote) {
     }
 }
 
-form.addEventListener('submit',e=>{
+form.addEventListener('submit', e => {
     e.preventDefault();
     const searchTerm = search.value;
-    if(searchTerm && searchTerm.trim() !== '') {
+    if (searchTerm && searchTerm.trim() !== '') {
         getMovies(SEARCH_API + searchTerm);
         search.value = '';
     } else {

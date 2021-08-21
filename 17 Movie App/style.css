@@ -43,7 +43,8 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 3rem;
 }
 
 .movie {
@@ -107,4 +108,9 @@ main {
 
 .movie:hover .overview {
     transform: translateY(0);
+}
+
+.last-movie {
+    width: 300px;
+    margin-right: 1rem;
 }
