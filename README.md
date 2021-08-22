@@ -27,3 +27,6 @@
 ## 25 Sticky Navigation
 ## 26 Vertical Slider
 ## 27 Toast Notification
+## 28 Github Profiles
+## 29 Double Click Heart
+## 30 Auto Text Effect
